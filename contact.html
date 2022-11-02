@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+</head>
+
+<body>
+  <h3>Contact details</h3>
+  <ul>
+    <li><a href="https://www.instagram.com/cedrick6.0/">Instagram</a></li>
+    <li><a href="https://www.facebook.com/cedrick.lubin.908">Facebook</a></li>
+    <li><a href="mailto:clubin6.0@gmail.com">Email</a></li>
+  </ul>
+  <hr>
+    <!-- The attribute action = "mailto:" specifies the action -->
+
+    <!-- In <form>, I deleted the "class" attribute and added the "enctype"
+    attribute to specify that the data is encoded in plain text -->
+  <form action="mailto:clubin6.0@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <br>
+    <!-- add value to the "name" attibute to identify the data in each "input"-->
+    <input type="text" name="yourName" value="" placeholder="name">
+    <br>
+    <label>Your Email:</label>
+    <br>
+    <input type="email" name="yourEmail" value="" placeholder="email">
+    <br>
+    <label>Your message</label>
+    <br>
+    <textarea name="youMessage" rows="10" cols="30" placeholder="Type message"></textarea>
+    <br>
+    <input type="submit" name="">
+
+  </form>
+
+</body>
+
+</html>
